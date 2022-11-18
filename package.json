@@ -1,0 +1,31 @@
+{
+  "name": "drink-link-backend",
+  "version": "1.0.0",
+  "description": "Matthew Gebhart",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-DrinkLink/drink-link-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-DrinkLink/drink-link-backend/issues"
+  },
+  "homepage": "https://github.com/Team-DrinkLink/drink-link-backend#readme",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-openid-connect": "^2.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.1.5",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  }
+}
