@@ -28,7 +28,7 @@ mongoDbConnection.once("open", () => {
   console.log("MongoDB connection established");
 });
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 80;
 
 app.listen(PORT, () => {
   console.log(`Server is running on port: ${PORT}`);
